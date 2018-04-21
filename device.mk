@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
     NotchBarKiller \
+    SettingsLibOverlaySweet \
     SettingsOverlaySweet \
     SettingsProviderOverlaySweet \
     SweetinproSettingsProvider \
