@@ -137,6 +137,7 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlaySweet \
     NoCutoutOverlay \
     NotchBarKiller \
+    SettingsLibOverlaySweet \
     SettingsOverlaySweet \
     SettingsProviderOverlaySweet \
     SweetinproSettingsProvider \
