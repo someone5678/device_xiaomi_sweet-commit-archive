@@ -28,3 +28,10 @@ vendor.panel.color                      u:object_r:vendor_panel_prop:s0
 vendor.panel.display                    u:object_r:vendor_panel_prop:s0
 vendor.panel.touch_vendor               u:object_r:vendor_panel_prop:s0
 vendor.panel.vendor                     u:object_r:vendor_panel_prop:s0
+
+# Dirac
+persist.dirac.acs.controller           u:object_r:vendor_audio_prop:s0
+persist.dirac.acs.storeSettings        u:object_r:vendor_audio_prop:s0
+persist.dirac.acs.ignore_error         u:object_r:vendor_audio_prop:s0
+ro.audio.soundfx.dirac                 u:object_r:vendor_audio_prop:s0
+persist.audio.dirac.speaker            u:object_r:vendor_audio_prop:s0
