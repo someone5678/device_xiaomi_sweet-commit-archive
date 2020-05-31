@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc
 
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    libaacwrapper
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -55,6 +59,10 @@ PRODUCT_PACKAGES += \
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
+# Bluetooth
+PRODUCT_PACKAGES += \
+    BluetoothQti
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -124,6 +132,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    BluetoothOverlaySweet \
     CarrierConfigOverlaySweet \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
