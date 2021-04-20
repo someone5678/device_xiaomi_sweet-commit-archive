@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     CameraGo \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
