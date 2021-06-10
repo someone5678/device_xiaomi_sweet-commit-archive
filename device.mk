@@ -162,6 +162,14 @@ PRODUCT_PACKAGES += \
     TelephonyOverlaySweet \
     WifiOverlay
 
+PRODUCT_PACKAGES += \
+	AccentColorBetterYellowOverlay \
+	AccentColorBetterRedOverlay \
+	AccentColorBetterPinkOverlay \
+	AccentColorBetterOrangeOverlay \
+	AccentColorBetterGreenOverlay \
+	AccentColorBetterBlueOverlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.ims.xml \
