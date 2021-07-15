@@ -68,3 +68,10 @@ persist.dirac.acs.ignore_error=1
 # Dirac headset effect
 ro.audio.soundfx.dirac=true
 persist.audio.dirac.speaker=true
+
+# LMKDs
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=40
+ro.lmk.downgrade_pressure=60
+ro.lmk.thrashing_limit=30
+ro.lmk.thrashing_limit_decay=50
