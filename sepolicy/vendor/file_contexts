@@ -31,3 +31,26 @@
 
 # Persist subsystem
 /mnt/vendor/persist/subsys(/.*)?                                  u:object_r:persist_subsys_file:s0
+
+# Wakeup
+/sys/devices/platform/soc/4080000.qcom,mss/wakeup/wakeup[0-9]+(/.*)?                                                                      u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:gpio_keys/wakeup/wakeup[0-9]+(/.*)?                                                                         u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,smp2p-adsp/wakeup/wakeup[0-9]+(/.*)?                                                                   u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,smp2p-cdsp/wakeup/wakeup[0-9]+(/.*)?                                                                   u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,smp2p-modem/wakeup/wakeup[0-9]+(/.*)?                                                                  u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,smp2p_sleepstate/wakeup/wakeup[0-9]+(/.*)?                                                             u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/diag/diag/wakeup[0-9]+(/.*)?                                                                                         u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_aac/wakeup[0-9]+(/.*)?                                                                                     u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_alac/wakeup[0-9]+(/.*)?                                                                                     u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_amrnb/wakeup[0-9]+(/.*)?                                                                                    u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_amrwb/wakeup[0-9]+(/.*)?                                                                                    u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_amrwbplus/wakeup[0-9]+(/.*)?                                                                                u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_ape/wakeup[0-9]+(/.*)?                                                                                      u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_evrc/wakeup[0-9]+(/.*)?                                                                                     u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_g711alaw/wakeup[0-9]+(/.*)?                                                                                 u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_g711mlaw/wakeup[0-9]+(/.*)?                                                                                 u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_mp3/wakeup[0-9]+(/.*)?                                                                                      u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_multi_aac/wakeup[0-9]+(/.*)?                                                                                u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_qcelp/wakeup[0-9]+(/.*)?                                                                                    u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_wma/wakeup[0-9]+(/.*)?                                                                                      u:object_r:sysfs_wakeup:s0
+/sys/devices/virtual/misc/msm_wmapro/wakeup[0-9]+(/.*)?                                                                                   u:object_r:sysfs_wakeup:s0
