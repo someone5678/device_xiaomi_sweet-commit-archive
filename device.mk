@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     privapp-permissions-devicesettings.xml
 
 PRODUCT_PRODUCT_PROPERTIES += \
+    persist.lcd.hbm_mode=0 \
     persist.lcd.cabc_mode=1
 
 # Overlays
