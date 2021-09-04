@@ -22,6 +22,7 @@ vendor.camera.sensor.m.sensorInfo       u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.u.sensorInfo       u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.d.sensorInfo       u:object_r:vendor_camera_prop:s0
 vendor.camera.boot_complete             u:object_r:vendor_camera_prop:s0
+persist.camera.gyro.disable             u:object_r:vendor_camera_prop:s0
 
 # Panel
 vendor.panel.color                      u:object_r:vendor_panel_prop:s0
