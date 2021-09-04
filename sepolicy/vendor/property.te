@@ -2,3 +2,6 @@ type sensors_prop, property_type;
 
 # Power
 type power_prop, property_type;
+
+# Panel
+type vendor_panel_prop, property_type;
