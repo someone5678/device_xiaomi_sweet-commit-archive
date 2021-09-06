@@ -68,6 +68,12 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# IPACM
+PRODUCT_PACKAGES += \
+    IPACM_cfg.xml \
+    ipacm \
+    ipacm.rc
+
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.rc \
@@ -196,7 +202,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # Perf
 PRODUCT_PACKAGES += \
