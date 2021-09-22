@@ -425,4 +425,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 
+include vendor/dolby/dolby.mk
 include vendor/xiaomi/sweet/sweet-vendor.mk
