@@ -18,3 +18,6 @@ iorapd.perfetto.enable=true
 # ro.secure=0
 # ro.debuggable=1
 ro.control_privapp_permissions=log
+
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
