@@ -23,10 +23,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt
 
 PRODUCT_PACKAGES += \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhdmipassthru \
+    libhfp \
+    liba2dpoffload \
+    libaudio-resampler \
+    libbatterylistener \
+    libcirrusspkrprot \
     libvolumelistener \
     libaudiopreprocessing \
     audio.a2dp.default \
     audio.bluetooth.default \
+    audio.usb.default \
     audio.r_submix.default \
     android.hardware.audio.service \
     android.hardware.audio.common-util \
@@ -43,6 +53,16 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc
+
+PRODUCT_PACKAGES += \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libtinycompress \
+    libtinycompress.vendor \
+    libsndmonitor \
+    libspkrprot \
+    tinymix
 
 # Adaptive charging
 PRODUCT_PACKAGES += \

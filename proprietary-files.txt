@@ -742,7 +742,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/audio.primary.sm6150.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
@@ -766,7 +765,6 @@ vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/hw/vulkan.adreno.so
-vendor/lib64/liba2dpoffload.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -806,7 +804,6 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libavservices_minijail.so
 vendor/lib64/libbase64.so
-vendor/lib64/libbatterylistener.so
 vendor/lib64/libbeauty_face_interface.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session.so
@@ -838,13 +835,11 @@ vendor/lib64/libcdsprpc_system.so
 vendor/lib64/libcert_parse.wpa_s.so
 vendor/lib64/libcheckpid.so
 vendor/lib64/libchrome.so
-vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcne.so
-vendor/lib64/libcomprcapture.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libcpion.so
@@ -870,7 +865,6 @@ vendor/lib64/libdsutils.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libembmsservice.so
-vendor/lib64/libexthwplugin.so
 vendor/lib64/libFaceGrade.so
 vendor/lib64/libfastcvdsp_stub.so
 vendor/lib64/libfastcvopt.so
@@ -903,7 +897,6 @@ vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libhexagon_nn_stub.so
-vendor/lib64/libhfp.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libhta.so
 vendor/lib64/libhvx_interface.so
@@ -1069,7 +1062,6 @@ vendor/lib64/libsi.so
 vendor/lib64/libskewknob.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsmemlog.so
-vendor/lib64/libsndmonitor.so
 vendor/lib64/libsnpe_adsp.so
 vendor/lib64/libsnpe_dsp_domains.so
 vendor/lib64/libsnpe_dsp_domains_system.so
@@ -1084,7 +1076,6 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libsoc_helper.so
-vendor/lib64/libspkrprot.so
 vendor/lib64/lib_sr_models.so
 vendor/lib64/libssccalapi.so
 vendor/lib64/libssc_default_listener.so
@@ -1105,7 +1096,6 @@ vendor/lib64/libteeclientjni.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libtida@1.2.so
 vendor/lib64/libtime_genoff.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libtinyxml.so
 vendor/lib64/libTouchInputVM.so
@@ -1153,9 +1143,6 @@ vendor/lib64/sensors.touch.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libdirac.so
 vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
@@ -1340,7 +1327,6 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/audio.primary.sm6150.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
@@ -1364,7 +1350,6 @@ vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib/hw/vulkan.adreno.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -1389,7 +1374,6 @@ vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libavservices_minijail.so
 vendor/lib/libbase64.so
-vendor/lib/libbatterylistener.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbt-hidlclient.so
@@ -1414,13 +1398,11 @@ vendor/lib/libcdsprpc_system.so
 vendor/lib/libcert_parse.wpa_s.so
 vendor/lib/libcheckpid.so
 vendor/lib/libchrome.so
-vendor/lib/libcirrusspkrprot.so
 vendor/lib/libclient2slpi.notifier.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneoplookup.so
 vendor/lib/libcneqmiutils.so
 vendor/lib/libcne.so
-vendor/lib/libcomprcapture.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libconfigdb.so
 vendor/lib/libcpion.so
@@ -1445,7 +1427,6 @@ vendor/lib/libdrmtime.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
-vendor/lib/libexthwplugin.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvdsp_stub.so
@@ -1477,7 +1458,6 @@ vendor/lib/libhdcpsrm.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhdr_tm.so
-vendor/lib/libhfp.so
 vendor/lib/libhta_hexagon_runtime.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libidl.so
@@ -1630,7 +1610,6 @@ vendor/lib/libskewknob.so
 vendor/lib/libslimclient.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsmwrapper.so
-vendor/lib/libsndmonitor.so
 vendor/lib/libsnsapi.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsnsdiaglog.so
@@ -1639,7 +1618,6 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsns_registry_skel.so
 vendor/lib/libsoc_helper_jni.so
 vendor/lib/libsoc_helper.so
-vendor/lib/libspkrprot.so
 vendor/lib/lib_sr_models.so
 vendor/lib/libssccalapi.so
 vendor/lib/libssc_default_listener.so
@@ -1661,7 +1639,6 @@ vendor/lib/libteeclientjni.so
 vendor/lib/libthermalclient.so
 vendor/lib/libtida@1.2.so
 vendor/lib/libtime_genoff.so
-vendor/lib/libtinycompress.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib/libtinyxml.so
 vendor/lib/libTouchInputVM.so
@@ -1734,9 +1711,6 @@ vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
