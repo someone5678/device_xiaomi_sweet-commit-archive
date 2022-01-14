@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libbatterylistener \
     libcirrusspkrprot \
+    libalsautils \
     libvolumelistener \
     libaudiopreprocessing \
     audio.a2dp.default \

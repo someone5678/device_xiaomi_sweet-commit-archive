@@ -779,7 +779,6 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libaoa.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libappclassifier.so
@@ -1363,7 +1362,6 @@ vendor/lib/libadsprpc.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libalCFR.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib/libalsautils.so
 vendor/lib/libaoa.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libaudcal.so
