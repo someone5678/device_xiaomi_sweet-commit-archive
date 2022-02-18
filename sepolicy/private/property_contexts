@@ -8,4 +8,4 @@ persist.bootanim.color4     u:object_r:bootanim_system_prop:s0     exact    int
 settingsdebug.instant.packages u:object_r:settingslib_prop:s0
 
 # DeviceSettings
-persist.lcd.                   u:object_r:persist_lcd_prop:s0
+persist.devicesettings.                   u:object_r:devicesettings_prop:s0

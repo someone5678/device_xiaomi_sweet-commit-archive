@@ -29,8 +29,8 @@ import org.lineageos.settings.device.R;
 public class LcdFeaturesPreferenceFragment extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
-    public static final String HBM_PROP = "persist.lcd.hbm_mode";
-    public static final String CABC_PROP = "persist.lcd.cabc_mode";
+    public static final String HBM_PROP = "persist.devicesettings.lcd.hbm";
+    public static final String CABC_PROP = "persist.devicesettings.lcd.cabc";
 
     private static final String KEY_HBM = "pref_hbm";
     private static final String KEY_CABC = "pref_cabc";

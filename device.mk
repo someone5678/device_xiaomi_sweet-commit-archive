@@ -204,10 +204,6 @@ PRODUCT_PACKAGES += \
     init.devicesettings.rc \
     privapp-permissions-devicesettings.xml
 
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.lcd.hbm_mode=0 \
-    persist.lcd.cabc_mode=1
-
 # Overlays
 PRODUCT_PACKAGES += \
     BluetoothOverlaySweet \

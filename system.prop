@@ -61,3 +61,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Priv-app permission
 ro.control_privapp_permissions=log
+
+# DeviceSettings
+persist.devicesettings.lcd.cabc=1
+persist.devicesettings.lcd.hbm=0

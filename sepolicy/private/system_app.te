@@ -6,4 +6,5 @@ allow system_app sysfs_vibrator:file { read write open getattr };
 
 # DeviceSettings
 allow system_app proc_nvt_feature:file rw_file_perms;
-set_prop(system_app, persist_lcd_prop)
+get_prop(system_app, devicesettings_prop)
+set_prop(system_app, devicesettings_prop)
