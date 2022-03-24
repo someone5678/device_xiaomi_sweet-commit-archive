@@ -26,10 +26,13 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 
 import org.lineageos.settings.device.dirac.DiracActivity;
+import org.lineageos.settings.device.display.LcdFeaturesPreferenceActivity;
 
 public class TileEntryActivity extends Activity {
     private static final String TAG = "TileEntryActivity";
     private static final String DIRAC_TILE = "org.lineageos.settings.device.dirac.DiracTileService";
+    private static final String CABC_TILE = "org.lineageos.settings.device.display.CabcTileService";
+    private static final String HBM_TILE = "org.lineageos.settings.device.display.HbmTileService";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,6 +41,12 @@ public class TileEntryActivity extends Activity {
         switch (sourceClass.getClassName()) {
             case DIRAC_TILE:
                 openActivitySafely(new Intent(this, DiracActivity.class));
+                break;
+            case CABC_TILE:
+                openActivitySafely(new Intent(this, LcdFeaturesPreferenceActivity.class));
+                break;
+            case HBM_TILE:
+                openActivitySafely(new Intent(this, LcdFeaturesPreferenceActivity.class));
                 break;
             default:
                 finish();
