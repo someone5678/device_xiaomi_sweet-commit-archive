@@ -632,6 +632,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libgui-shim
 
+# Exclude unwanted Packages
+PRODUCT_PACKAGES += \
+    ExcludePackages
+
 # Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
 # on supported devices with Deep Press input classifier HALs and models
 PRODUCT_PRODUCT_PROPERTIES += \
