@@ -8,7 +8,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     GoogleCamera \
     Maps \
-    PrebuiltGmail
+    PrebuiltGmail \
+	Papers
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
