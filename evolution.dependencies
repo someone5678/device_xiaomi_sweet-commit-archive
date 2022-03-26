@@ -34,5 +34,23 @@
     "repository": "vendor_qcom_common",
     "target_path": "vendor/qcom/common",
     "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "PixelExperience/hardware_qcom-caf_sm8150-common_display",
+    "target_path": "hardware/qcom-caf/sm8150-common/display",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "PixelExperience/hardware_qcom-caf_sm8150-common_media",
+    "target_path": "hardware/qcom-caf/sm8150-common/media",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "PixelExperience/hardware_qcom-caf_sm8150-common_audio",
+    "target_path": "hardware/qcom-caf/sm8150-common/audio",
+    "branch": "twelve"
   }
 ]
