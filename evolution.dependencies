@@ -25,20 +25,8 @@
   },
   {
     "remote": "github",
-    "repository": "someone5678/vendor_pixel-additional",
-    "target_path": "vendor/pixel-additional",
-    "branch": "twelve"
-  },
-  {
-    "remote": "github",
     "repository": "PixelExperience-Devices/device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch": "twelve"
-  },
-  {
-    "remote": "github",
-    "repository": "PixelExperience/hardware_xiaomi",
-    "target_path": "hardware/xiaomi",
     "branch": "twelve"
   },
   {
