@@ -209,6 +209,9 @@ vendor.qc2.venc.avgqp.enable=1
 # Mi Sound FX
 ro.vendor.audio.soundfx.type=mi
 
+# Multi-gen LRU
+persist.device_config.mglru_native.lru_gen_config=all
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
