@@ -5,19 +5,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
+ARROW_GAPPS := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Additional Pixel stuffs
 TARGET_INCLUDE_CARRIER_SETTINGS := true
 TARGET_SHIP_PREBUILT_APEX := true
 
-PRODUCT_NAME := aosp_sweet
+PRODUCT_NAME := arrow_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := M2101K6G
